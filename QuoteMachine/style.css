@@ -1,0 +1,42 @@
+
+#main_box{
+    margin:auto;
+    text-align: center;
+    padding-top: 10em;
+    position: relative;
+}
+
+.row{
+    text-align: center;
+    position: relative;
+}
+#request_new{
+    position:absolute;
+    top:350px;
+    right:80px;
+}
+#tweety{
+    position:absolute;
+    top:350px;
+    left:80px;
+}
+#result_box{
+    position: absolute;
+    top:200px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#the_quote{
+    font-size: 60px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    left: 25px;
+    font-weight: bolder;
+    font-family: fantasy;
+}
+body{
+background-image: url("https://static.pexels.com/photos/96389/pexels-photo-96389.jpeg");
+background-size: cover;
+}
