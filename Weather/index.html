@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Title of the document</title>
-<link rel="stylesheet" href="./style.css"/>
-<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-<script src="./node_modules/jquery/dist/jquery.min.js"></script>
-</head>
-
-<body>
-<button id="button">Click me !</button>
-</body>
-
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>IP-API.com Geo Location Demo</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <table id="GeoResults"></table>
+        <script>
+        $.getJSON("http://ip-api.com/json/?callback=?", function(data) {
+            console.log(data);
+        });
+        </script>
+    </body>
 </html>
