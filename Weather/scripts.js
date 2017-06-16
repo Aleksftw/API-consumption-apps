@@ -1,9 +1,9 @@
-var target = $('button');
+var lon;
+var lat;
 
-$(document).ready(function() {
-	target.on('click', function() {
-		console.log('Works!');
-		alert('Handler works');
-	});
 
+$.getJSON("http://ip-api.com/json", function(data) {
+	lon = data.lon;
+	lat = data.lat;
+	console.log("Lon: " + lon + " Lat: " + lat);
 });
