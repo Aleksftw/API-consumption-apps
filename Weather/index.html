@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-        <title>IP-API.com Geo Location Demo</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>
+
+        <script src="scripts.js"></script>
+
+
+
+</head>
     <body>
-        <table id="GeoResults"></table>
-        <script>
-        $.getJSON("http://ip-api.com/json/?callback=?", function(data) {
-            console.log(data);
-        });
-        </script>
+        <div class="text-center">
+            <h1>Show Local Weather App</h1>
+        <ul class="list-unstyled">
+            <li class ="btn btn-default" id="city"></li>
+            <li class ="btn btn-default" id="typeWeather"></li>
+            <li class ="btn btn-default" id="fTemp"></li>
+            <li class ="btn btn-default" id="windspeed"></li>
+
+        </ul>
+</div>
+
+
+
+
+
     </body>
 </html>
