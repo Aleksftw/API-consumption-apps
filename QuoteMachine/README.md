@@ -3,4 +3,4 @@
   Technologies used:  
   - HTML,  
   - CSS (Bootstrap),    
-  - jQuery (AJAX).
+  - jQuery (AJAX) 
