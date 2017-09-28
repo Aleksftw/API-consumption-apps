@@ -2,5 +2,5 @@
 
   Technologies used:  
   - HTML,  
-  - CSS (Bootstrap),    
-  - jQuery (AJAX) 
+  - CSS (Bootstrap)   
+  - jQuery (AJAX)
