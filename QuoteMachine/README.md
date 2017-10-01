@@ -1,6 +1,7 @@
 # Random quote machine app.
 
-  Technologies used:  
+  Technologies used:
+    
   - HTML
   - CSS (Bootstrap
   - jQuery (AJAX)
